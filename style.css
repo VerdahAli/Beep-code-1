@@ -1,0 +1,59 @@
+body {
+    background-color: #0a0a0a; /* deep black background */
+    color: #ff1a1a;           /* blood red text */
+    font-family: 'Courier New', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-shadow: 0 0 5px #ff1a1a, 0 0 10px #800000; /* glowing red letters */
+}
+
+#container {
+    text-align: center;
+    border: 2px solid #800000; /* dark red outline */
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 0 20px #ff1a1a, 0 0 40px #800000 inset; /* red glow */
+    background-color: rgba(10, 0, 0, 0.9); /* semi-transparent dark red tint */
+}
+
+input, button {
+    width: 80%;
+    padding: 10px;
+    font-size: 1rem;
+    margin-top: 10px;
+    background-color: #1a0000; /* almost black with red tint */
+    color: #ff1a1a;
+    border: 1px solid #800000;
+    box-shadow: 0 0 5px #800000;
+}
+
+button:hover {
+    background-color: #ff1a1a; /* bright red hover */
+    color: #0a0a0a;
+    box-shadow: 0 0 15px #ff3333;
+    transform: scale(1.05);
+}
+
+#feedback {
+    margin-top: 15px;
+    font-weight: bold;
+    text-shadow: 0 0 5px #ff3333;
+}
+
+#play-btn {
+    background-color: #800000; /* dark red button */
+    color: #ff1a1a;
+    border: 1px solid #ff3333;
+    box-shadow: 0 0 10px #ff1a1a;
+}
+
+#play-btn:hover {
+    background-color: #ff1a1a;
+    color: #0a0a0a;
+    box-shadow: 0 0 15px #ff3333;
+    transform: scale(1.05);
+}
